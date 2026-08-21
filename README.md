@@ -170,3 +170,9 @@ The daemon serves the phone's PWA and a small HTTP API on `:18030` — usable by
 - **`watcher.py`** — polls every 1.5s, tracks idle time, keeps a snapshot ring buffer.
 - **`server.py`** — FastAPI: `/api/state`, snapshot endpoints, `/api/panes/{id}/send`.
 - **`web/`** — installable vanilla-JS PWA.
+
+## License & credits
+
+Created by **Shapor Naghibzadeh** ([@shapor](https://github.com/shapor)), with a contribution from Antony Liang. Published as a public, forkable project with the author's permission; released under the [MIT License](LICENSE) so you can fork and adapt it freely.
+
+It's referenced as an optional "watch your agents from your phone" add-on in the [multi-domain Claude Code architecture guide](https://github.com/armodis/claude-architecture-guide).
