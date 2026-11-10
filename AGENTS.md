@@ -32,8 +32,9 @@ squash-merges) — prefer branching off main and merging main in, over stacking.
 
 ## Review before merge
 
-No PR merges with unaddressed review comments. Drive Copilot review to clean (resolve
-every thread, re-request, repeat) before merging. Merge only on the user's explicit word.
+No PR merges with unaddressed review comments. Drive the AI reviews on the PR to clean
+(resolve every thread, re-run the review, repeat) before merging. Merge only on the
+user's explicit word.
 
 ## UI iconography: no emoji — inline Lucide icons
 
